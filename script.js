@@ -1,5 +1,6 @@
 document.documentElement.classList.add('js');
 const products=[
+["MÁRIA — THE SLEEP · FREE SAMPLE","A real 60-second excerpt from MÁRIA before you choose the full experience.","Skutočná 60-sekundová ukážka Márie pred výberom plnej verzie.","sleep","C7pOr","FREE","TRY · FEEL · CONTINUE"],
 ["MÁRIA — THE SLEEP","A warm, slow Slovak voice experience for a gentler evening ritual.","Teplý, pomalý slovenský hlas pre jemnejší večerný rituál.","sleep","eAlrk","€4.90","VOICE · CALM · EVENING"],
 ["LUMEN — THE SLEEP","A soft guided voice experience with an unhurried pace.","Jemný hlasový zážitok s pokojnými pauzami.","sleep","EHK3I","€4.90","VOICE · SPACE · REST"],
 ["FAN — THE SLEEP","A steady fan soundscape for a familiar evening background.","Stály zvuk ventilátora pre známe večerné pozadie.","sleep","IFoUz","€4.90","STEADY · SOFT · NIGHT"],
