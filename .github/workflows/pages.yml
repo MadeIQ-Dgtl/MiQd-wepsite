@@ -33,6 +33,7 @@ jobs:
           import sys
 
           root = Path('.').resolve()
+          pages_prefix = '/MiQd-wepsite/'
           broken = []
           page_cache = {}
 
@@ -68,7 +69,12 @@ jobs:
                       continue
                   path = unquote(parts.path)
                   if path:
-                      target = (page.parent / path).resolve()
+                      if path.startswith(pages_prefix):
+                          target = (root / path[len(pages_prefix):]).resolve()
+                      elif path.startswith('/'):
+                          target = (root / path.lstrip('/')).resolve()
+                      else:
+                          target = (page.parent / path).resolve()
                       try:
                           target.relative_to(root)
                       except ValueError:
